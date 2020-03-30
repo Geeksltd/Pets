@@ -1,0 +1,9 @@
+D:\Projects\pets.demo\Pets\M#\lib\netcoreapp2.1\#UI.deps.json
+D:\Projects\pets.demo\Pets\M#\lib\netcoreapp2.1\#UI.dll
+D:\Projects\pets.demo\Pets\M#\lib\netcoreapp2.1\#UI.pdb
+D:\Projects\pets.demo\Pets\M#\UI\obj\Debug\netcoreapp2.1\#UI.csprojAssemblyReference.cache
+D:\Projects\pets.demo\Pets\M#\UI\obj\Debug\netcoreapp2.1\#UI.AssemblyInfoInputs.cache
+D:\Projects\pets.demo\Pets\M#\UI\obj\Debug\netcoreapp2.1\#UI.AssemblyInfo.cs
+D:\Projects\pets.demo\Pets\M#\UI\obj\Debug\netcoreapp2.1\#UI.csproj.CopyComplete
+D:\Projects\pets.demo\Pets\M#\UI\obj\Debug\netcoreapp2.1\#UI.dll
+D:\Projects\pets.demo\Pets\M#\UI\obj\Debug\netcoreapp2.1\#UI.pdb

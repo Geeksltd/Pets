@@ -1,0 +1,4 @@
+﻿<div data-module="ContentBlockView">
+@Html.StartupActionsJson()
+@info.Output.Raw()
+</div>

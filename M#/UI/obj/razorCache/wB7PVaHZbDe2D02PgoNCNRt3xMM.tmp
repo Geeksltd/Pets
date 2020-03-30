@@ -1,0 +1,46 @@
+﻿<form data-module="PetsListModule" method="get" action="@Url.Current()" data-redirect="ajax">
+@Html.AntiForgeryToken()
+@Html.StartupActionsJson()
+<div class="buttons-row top-buttons-row"><div class="buttons"><a name="AddANewPet" class="btn btn-secondary" href='@Url.Index("AdminSettingsPetsEnter", new { ReturnUrl = Url.Current() })' data-redirect="ajax">Add a new pet</a></div></div><h2>My pets</h2>
+<div class="search">
+<div class="form-group">
+<div class="group-control"><input type="text" asp-for="FullSearch" class="form-control" /></div>
+</div>
+<div class="form-group">
+<label for="Name" class="control-label">Name</label>
+<div class="group-control"><input type="text" asp-for="Name" class="form-control" /></div>
+</div>
+<div class="buttons-row"><div class="buttons"><button type="button" name="Search" class="btn btn-primary" default-button="true">Search</button></div></div>
+</div>
+@if (Model.Items.Any())
+{
+<div class="grid-wrapper">
+<table class="grid">
+<thead>
+<tr><th>Name
+</th>
+<th>Type
+</th>
+<th>
+</th></tr>
+</thead>
+<tbody>
+@foreach (var listItem in Model.Items)
+{
+var item = listItem.Item;
+<tr>
+<td>@item.Name</td>
+<td>@item.Type</td>
+<td><a name="Edit" class="btn btn-secondary" href='@Url.Index("AdminSettingsPetsEnter", new { item = item.ID, ReturnUrl = Url.Current() })' data-redirect="ajax">Edit</a>
+<button type="submit" name="Delete" class="btn btn-secondary" formaction='@Url.ActionWithQuery("PetsListModule/Delete", item)' data-confirm-question="Are you sure?">Delete</button></td>
+</tr>
+}
+</tbody>
+</table>
+</div>
+}
+@if (Model.Items.None())
+{
+<div class="empty-list">There are no pets to display.</div>
+}
+</form>

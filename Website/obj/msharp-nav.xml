@@ -1,0 +1,241 @@
+﻿<?xml version="1.0"?>
+<All>
+  <Sisters>
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\Administrator.cs" />
+    <Button Text="Gen-Entity" Icon="csharp" Path="Domain\[GEN-Entities]\Administrator.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\Administrator.cs" Primary="true" />
+  </Sisters>
+  <Sisters>
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\LogonFailure.cs" />
+    <Button Text="Gen-Entity" Icon="csharp" Path="Domain\[GEN-Entities]\LogonFailure.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\LogonFailure.cs" Primary="true" />
+  </Sisters>
+  <Sisters>
+    <Button Text="Entity" Icon="msharp" Path="Model\Pet.cs" />
+    <Button Text="Gen-Entity" Icon="csharp" Path="Domain\[GEN-Entities]\Pet.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\Pet.cs" Primary="true" />
+  </Sisters>
+  <Sisters>
+    <Button Text="Entity" Icon="msharp" Path="Model\PetType.cs" />
+    <Button Text="Gen-Entity" Icon="csharp" Path="Domain\[GEN-Entities]\PetType.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\PetType.cs" Primary="true" />
+  </Sisters>
+  <Sisters>
+    <Button Text="Entity" Icon="msharp" Path="Model\Setup\Settings.cs" />
+    <Button Text="Gen-Entity" Icon="csharp" Path="Domain\[GEN-Entities]\Settings.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\Settings.cs" Primary="true" />
+  </Sisters>
+  <Sisters>
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\User.cs" />
+    <Button Text="Gen-Entity" Icon="csharp" Path="Domain\[GEN-Entities]\User.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\User.cs" Primary="true" />
+  </Sisters>
+  <Sisters>
+    <Button Text="Entity" Icon="msharp" Path="Model\CMS\ContentBlock.cs" />
+    <Button Text="Gen-Entity" Icon="csharp" Path="Domain\[GEN-Entities]\ContentBlock.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\ContentBlock.cs" Primary="true" />
+  </Sisters>
+  <Sisters>
+    <Button Text="Entity" Icon="msharp" Path="Model\Setup\AuditEvent.cs" />
+    <Button Text="Gen-Entity" Icon="csharp" Path="Domain\[GEN-Entities]\AuditEvent.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\AuditEvent.cs" Primary="true" />
+  </Sisters>
+  <Sisters>
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\PasswordResetTicket.cs" />
+    <Button Text="Gen-Entity" Icon="csharp" Path="Domain\[GEN-Entities]\PasswordResetTicket.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\PasswordResetTicket.cs" Primary="true" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Admin\Settings\Administrators\View.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsAdministratorsView.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-Administrators-View.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Admin\Settings\Administrators.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsAdministrators.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-Administrators.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Login\ResetPassword\Confirm.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\LoginResetPasswordConfirm.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Login-ResetPassword-Confirm.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Login\ForgotPassword.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\LoginForgotPassword.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Login-ForgotPassword.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Admin\Settings\ContentBlocks\Enter.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsContentBlocksEnter.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-ContentBlocks-Enter.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Admin\Settings\ContentBlocks.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsContentBlocks.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-ContentBlocks.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Admin\Settings\General.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsGeneral.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-General.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Login\ResetPassword.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\LoginResetPassword.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Login-ResetPassword.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Admin\Settings\PetsPage.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsPets.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-Pets.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Admin\Settings\Pets\EnterPage.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsPetsEnter.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-Pets-Enter.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Admin\Settings\Administrators\Enter.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsAdministratorsEnter.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-Administrators-Enter.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Admin\Settings.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettings.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Admin.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\Admin.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Login.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\Login.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Login.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Page" Icon="msharp" Path="UI\Pages\Login\Dispatch.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\LoginDispatch.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Login-Dispatch.Controller.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\-Menus\AdminSettingsMenu.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Modules\Components\AdminSettingsMenu\Default.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Modules\Components\AdminSettingsMenu.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\User\ConfirmPasswordReset.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\LoginResetPasswordConfirm.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Login-ResetPassword-Confirm.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\User.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\User.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\Settings\GeneralSettingsForm.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsGeneral.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-General.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\Setup\Settings.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\Settings.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\-Menus\MainMenu.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Modules\Components\MainMenu\Default.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Modules\Components\MainMenu.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\Pet\PetsFormModule.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsPetsEnter.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-Pets-Enter.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\Pet.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\Pet.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\Pet\PetsListModule.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsPets.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-Pets.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\Pet.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\Pet.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\User\RequestUserPasswordResetTicket.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\LoginForgotPassword.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Login-ForgotPassword.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\User.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\User.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\ContentBlock\ContentBlockForm.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsContentBlocksEnter.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-ContentBlocks-Enter.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\CMS\ContentBlock.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\ContentBlock.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\Administrator\AdministratorForm.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsAdministratorsEnter.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-Administrators-Enter.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\Administrator.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\Administrator.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\Administrator\ViewAdmin.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsAdministratorsView.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-Administrators-View.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\Administrator.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\Administrator.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\-Custom\Header.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Modules\Components\Header\Default.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Modules\Components\Header.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\User\LoginForm.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Modules\LoginForm.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Login.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\User.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\User.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\-Custom\Footer.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Modules\Components\Footer\Default.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Modules\Components\Footer.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\User\ResetUserPassword.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\LoginResetPassword.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Login-ResetPassword.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\User.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\User.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\ContentBlock\ContentBlockView.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Modules\Components\ContentBlockView\Default.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Modules\Components\ContentBlockView.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\CMS\ContentBlock.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\ContentBlock.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\ContentBlock\ContentBlocksList.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsContentBlocks.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-ContentBlocks.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\CMS\ContentBlock.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\ContentBlock.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\User\SocialMediaLogin.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Modules\SocialMediaLogin.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Login.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\User.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\User.cs" />
+  </Sisters>
+  <Sisters ui="true">
+    <Button Text="Module" Icon="msharp" Path="UI\Modules\Administrator\AdministratorsList.cs" />
+    <Button Text="Cshtml" Icon="cshtml" Path="Website\Views\Pages\AdminSettingsAdministrators.cshtml" />
+    <Button Text="Controller" Icon="csharp" Path="Website\Controllers\Pages\Admin-Settings-Administrators.Controller.cs" />
+    <Button Text="Entity" Icon="msharp" Path="Model\Users\Administrator.cs" />
+    <Button Text="Logic" Icon="csharp" Path="Domain\Logic\Administrator.cs" />
+  </Sisters>
+</All>

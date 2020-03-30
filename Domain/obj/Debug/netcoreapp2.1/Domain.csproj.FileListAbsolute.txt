@@ -1,0 +1,10 @@
+D:\Projects\pets.demo\Pets\Website\bin\Debug\netcoreapp2.1\Domain.deps.json
+D:\Projects\pets.demo\Pets\Website\bin\Debug\netcoreapp2.1\Domain.runtimeconfig.json
+D:\Projects\pets.demo\Pets\Website\bin\Debug\netcoreapp2.1\Domain.runtimeconfig.dev.json
+D:\Projects\pets.demo\Pets\Website\bin\Debug\netcoreapp2.1\Domain.dll
+D:\Projects\pets.demo\Pets\Website\bin\Debug\netcoreapp2.1\Domain.pdb
+D:\Projects\pets.demo\Pets\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfoInputs.cache
+D:\Projects\pets.demo\Pets\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfo.cs
+D:\Projects\pets.demo\Pets\Domain\obj\Debug\netcoreapp2.1\Domain.dll
+D:\Projects\pets.demo\Pets\Domain\obj\Debug\netcoreapp2.1\Domain.pdb
+D:\Projects\pets.demo\Pets\Domain\obj\Debug\netcoreapp2.1\Domain.csprojAssemblyReference.cache
